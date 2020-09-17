@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./popup.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="text-center p-3 bg-primary text-white"><img src="../img/watchx128.png" width="50"> Check for changes</h1>
+    
+    <h4 class="text-mutted text-center text-primary">Choisir la zone de travail:</h4>
+    <div class="row p-3 ">
+        <div class="col-6">
+            <h6>Choisir un etage</h6>
+            <div class="floor__choice">
+                <label class="form-check pl-2" class="form-check-label" for="defaultCheck1">
+                    <input class="" name="floor"  type="radio" value="P-1-" id="defaultCheck1" checked>
+                    <span>P1</span> 
+                </label>
+                <label class="form-check pl-2" class="form-check-label" for="defaultCheck2">
+                    <input class="" name="floor" type="radio" value="P-2-" id="defaultCheck2">
+                    <span>P2</span> 
+                </label>
+                <label class="form-check pl-2" class="form-check-label" for="defaultCheck3">
+                    <input class="" name="floor" type="radio" value="P-3-" id="defaultCheck3">
+                    <span>P3</span> 
+                </label>
+                <label class="form-check pl-2" class="form-check-label" for="defaultCheck4">
+                    <input class="" name="floor" type="radio" value="P-4-" id="defaultCheck4">
+                    <span>P4</span> 
+                </label>
+                
+            </div>
+        </div>
+        <div class="col-6">
+            <h6>Choisir une picktower</h6>
+            <div class="picktower__choice">
+                <label class="form-check pl-2" class="form-check-label" for="defaultCheck5">
+                    <input class="" name="zone" type="checkbox" value="E" id="defaultCheck5" checked>
+                    <span>East-E</span> 
+                </label>
+                <label class="form-check pl-2" class="form-check-label" for="defaultCheck7">
+                    <input class="" name="zone" type="checkbox" value="D" id="defaultCheck7" checked>
+                    <span>East-D</span> 
+                </label>
+                <label class="form-check pl-2" class="form-check-label" for="defaultCheck6">
+                    <input class="" name="zone" type="checkbox" value="A" id="defaultCheck6">
+                    <span>West-A</span> 
+                </label>
+                <label class="form-check pl-2" class="form-check-label" for="defaultCheck8">
+                    <input class="" name="zone" type="checkbox" value="B" id="defaultCheck8">
+                    <span>West-B</span> 
+                </label>
+                
+            </div>
+        </div>
+    </div>
+    <div class="row p-3">
+        <p class="zone_travail"></p>
+    </div>
+    <div clas="row">
+        <div class="col-12">
+            <span>Choisir un temps de rafrechissment de la page</span>
+            <select name="timetorefreche" id="refreche">
+                <option value="30000">30 secondes</option>
+                <option value="60000">1 minutes</option>
+                <option value="300000">5 minutes</option>
+            </select>
+        </div>
+    </div>
+    <div class="submit text-center mt-5">
+        <button id="submit" class="btn btn-primary">Valider</button>
+    </div>
+    <div class="copyright text-center mt-5">
+        <small class=" text-mutted">Powredby: abdelhakhamdouni &copy; 2020</small>
+    </div>
+    
+    <script src="../node_modules/jquery/jquery.min.js"></script>
+    <script src="./popup.js"></script>
+</body>
+</html>

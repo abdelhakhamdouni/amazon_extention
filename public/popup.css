@@ -1,0 +1,14 @@
+body, html{
+    width: 600px;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.form-check{
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.row .col-6{
+    border: 1px solid gray;
+}

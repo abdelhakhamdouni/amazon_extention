@@ -1,0 +1,15 @@
+{
+  "name": "checkforchange",
+  "version": "0.0.1",
+  "description": "extention to update and check for change on web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdelhak hamdouni",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
+  }
+}
